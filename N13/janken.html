@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="janken.js"></script>
+  </head>
+  <body>
+    <p>じゃんけん・・・</p>
+
+    <input type="radio" name="janken" value="0"><label>グー</label>
+    <input type="radio" name="janken" value="1"><label>チョキ</label>
+    <input type="radio" name="janken" value="2"><label>パー</label>
+    <br>
+    <input type="button" value="ぽん！" class="janken">
+    <br>
+    あなたの手 : <span class="show_player_hand"></span>
+    相手の手 : <span class="show_program_hand"></span>
+
+    <p>勝ち : <span class="win_count">0</span></p>
+    <p>負け : <span class="lose_count">0</span></p>
+    <p>あいこ: <span class="quits_count">0</span></p>
+
+    <h3>結果</h3>
+    勝率 : <span class="win_per">0</span> %
+    <div class="result"></div>
+
+  </body>
+</html>
